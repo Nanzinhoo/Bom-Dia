@@ -1,0 +1,118 @@
+header {
+    text-align: center;
+    font-size: 25px;
+    background-color: #ffffff00;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+h1 {
+    color: yellow;
+    text-shadow: 5px 9px 5px black;
+    transition: transform 2.0s ease, box-shadow 0.3s ease;
+    transition: filter 0.3s ease;
+}
+
+h1:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    filter: brightness(120%);
+}
+
+.image-text .image-left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 40px;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+h2,
+h3 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 4px black;
+    color: rgb(0, 255, 0);
+    transition: transform 2.0s ease, box-shadow 0.3s ease;
+    transition: filter 0.3s ease;
+}
+
+h2:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    filter: brightness(120%);
+}
+
+h3:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    filter: brightness(120%);
+}
+
+footer {
+    background-color: yellow;
+    font-size: 45px;
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+    color: red;
+}
+
+body {
+    background-image: url('unnamed.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+.icone {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 100px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 40px;
+    transform: translateX(0);
+    animation: slide-in 0.3s forwards;
+    margin-bottom: 90px;
+}
+
+.card {
+    background-color: #ffffff28;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin: 30px;
+    transition: filter 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    filter: brightness(120%);
+}
